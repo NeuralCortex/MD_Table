@@ -1,0 +1,35 @@
+.root{
+     -fx-font: 10px "Arial";
+}
+
+.fg{
+    -fx-background-color:-color-base-8;
+}
+
+.table-view{
+    -fx-fixed-cell-size: 25px;
+    
+}
+
+.table-view .column-header{
+    
+     -fx-pref-height: 25px;
+}
+
+/*
+.table-view .column-header-background,
+.tree-table-view .column-header-background {
+    -fx-max-height: 28px;
+    -fx-pref-height: 28px;
+    -fx-min-height: 28px;
+}
+
+.table-view .column-header .label,
+.tree-table-view .column-header .label,
+.table-view .column-header .sort-order-dots-container,
+.tree-table-view .column-header .sort-order-dots-container,
+.table-view .column-header .arrow,
+.tree-table-view .column-header .arrow {
+    -fx-padding: 0 0 0 10;
+}
+*/
